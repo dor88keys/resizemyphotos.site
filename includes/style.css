@@ -1,0 +1,244 @@
+body {
+  background-color: #232323;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h1,h2{
+  font-weight: 900;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+a {
+  color: #56CCF2;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 30px 0;
+}
+
+.content img {
+  width: 100%;
+}
+
+.step {
+  margin-bottom: 50px;
+}
+
+.content {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+footer {
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.install-extension {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.top {
+  text-align: center;
+}
+
+.spacer {
+  padding-bottom: 50px;
+}
+
+.spacer-sm {
+  padding-bottom: 20px;
+}
+
+.nav ul li {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+}
+
+.howto li {
+  padding: 6px;
+}
+
+#the-small-stuff {
+  padding: 10px;
+}
+
+.howto img {
+  padding: 20px 0;
+  width: 100%;
+}
+
+footer ul li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+footer ul {
+  display: inline-block;
+}
+
+.uninstall ul {
+  margin: 40px 0 0 20px;
+  padding: 0;
+}
+
+.uninstall ul li {
+  list-style: none;
+  padding: 5px;
+  float: left;
+  clear: both;
+}
+
+.uninstall ul li input[type="radio"] {
+  margin-right: 10px;
+}
+
+.uninstall input[type="text"] {
+  padding: 6px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
+}
+
+.uninstall input.send,
+body.feedback input.send
+{
+  background-color: #56CCF2;
+  padding: 10px 16px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  margin-top: 10px;
+}
+
+.uninstall h1 {
+  float: left;
+}
+
+.uninstall h2 {
+  float: left;
+  clear: both;
+  padding: 0 0 30px 0;
+  margin: 0;
+}
+
+#feedback-form {
+  width: 360px;
+  margin:0 auto;
+  padding:10px 0 0 0;
+}
+
+#feedback-form li{
+  list-style:none;
+  padding:5px;
+}
+
+#feedback-form input[type="email"],
+#feedback-form textarea {
+  width: 100%;
+  border:0;
+  padding:10px 15px;
+  border-radius:2px;
+  background-color:#333333;
+}
+
+#feedback-form input[type="submit"]{
+  width:100%;
+}
+
+#feedback-form textarea {
+  height:160px;
+}
+
+ #gform {
+  overflow: hidden;
+  width:860px;margin:0 auto;
+}
+
+#gform iframe {
+  position: relative;
+  top: -120px;
+}
+
+#guide .content{
+  text-align: left;
+}
+
+#guide p{
+  font-size: 17px;  
+}
+
+#guide h1{
+  font-size: 50px;
+}
+
+#guide h2{
+font-size: 30px;
+margin:0;
+padding-bottom: 10px;
+font-weight: 900;
+line-height: 100%;
+}
+
+/*.guide-num{
+  padding:12px 20px;
+  border-radius: 999px;
+  border:3px solid #666666;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color:#666666;
+}*/
+
+#guide .container-fluid{
+  max-width: 1500px;
+}
+
+#guide h1 span{
+color:#777777;
+}
+
+#guide .tip{
+  padding-top: 60px;
+  text-align: center;
+}
+
+#guide .tip img{
+  width:100%;
+  max-width: 600px;
+}
+
+.clear{
+  clear:both;
+}
+
+#guide .top{
+  padding-bottom: 40px;
+}
