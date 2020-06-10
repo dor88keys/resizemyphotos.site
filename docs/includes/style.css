@@ -102,23 +102,23 @@ footer ul {
   display: inline-block;
 }
 
-.uninstall ul {
+.uninstall #feedback ul {
   margin: 40px 0 0 20px;
   padding: 0;
 }
 
-.uninstall ul li {
+.uninstall #feedback ul li {
   list-style: none;
   padding: 5px;
   float: left;
   clear: both;
 }
 
-.uninstall ul li input[type="radio"] {
+.uninstall #feedback ul li input[type="radio"] {
   margin-right: 10px;
 }
 
-.uninstall input[type="text"] {
+.uninstall #feedback input[type="text"] {
   padding: 6px;
   border: none;
   background-color: transparent;
@@ -126,7 +126,7 @@ footer ul {
   width: 300px;
 }
 
-.uninstall input.send,
+.uninstall #feedback input.send,
 body.feedback input.send
 {
   background-color: #56CCF2;
@@ -138,11 +138,7 @@ body.feedback input.send
   margin-top: 10px;
 }
 
-.uninstall h1 {
-  float: left;
-}
-
-.uninstall h2 {
+.uninstall #feedback h2 {
   float: left;
   clear: both;
   padding: 0 0 30px 0;
